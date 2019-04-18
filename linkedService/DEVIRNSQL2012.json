@@ -1,0 +1,17 @@
+{
+	"name": "DEVIRNSQL2012",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "PRStaging",
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=devirnsql2012;initial catalog=PRStaging",
+			"userName": "IRNHSFT\\omar.ali",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1M2Q5MmE3Ny0zODYyLTQ1N2YtYWM2OS0wNWYzMzhmMGY0MzgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeDEVIRNSQL2012",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"name": "DestinationDataset_vvm",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlTable",
+		"structure": [
+			{
+				"name": "First",
+				"type": "String"
+			},
+			{
+				"name": "Last",
+				"type": "String"
+			},
+			{
+				"name": "DOB",
+				"type": "Date"
+			},
+			{
+				"name": "LastModified",
+				"type": "DateTime"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[Contact]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimeDEVIRNSQL2012",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

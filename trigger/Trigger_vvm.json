@@ -1,0 +1,23 @@
+{
+	"name": "Trigger_vvm",
+	"properties": {
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyLocalDataoAzure",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2019-04-10T14:33:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

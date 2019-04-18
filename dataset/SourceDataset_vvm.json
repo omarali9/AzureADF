@@ -1,0 +1,40 @@
+{
+	"name": "SourceDataset_vvm",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DEVIRNSQL2012",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"structure": [
+			{
+				"name": "CustomerID",
+				"type": "String"
+			},
+			{
+				"name": "LastName",
+				"type": "String"
+			},
+			{
+				"name": "Firstname",
+				"type": "String"
+			},
+			{
+				"name": "Birthday",
+				"type": "Date"
+			},
+			{
+				"name": "CreatedOn",
+				"type": "DateTime"
+			},
+			{
+				"name": "ModifiedOn",
+				"type": "DateTime"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[Customers]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
