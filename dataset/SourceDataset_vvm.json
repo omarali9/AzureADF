@@ -5,6 +5,7 @@
 			"referenceName": "DEVIRNSQL2012",
 			"type": "LinkedServiceReference"
 		},
+		"annotations": [],
 		"type": "SqlServerTable",
 		"structure": [
 			{
